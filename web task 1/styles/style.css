@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+#image
+{
+    width: 450px;
+}
+
+.text
+{
+    font-size: 200px;
+}
+
+body
+{
+    font-family: Montserrat;
+}
+
+li
+{
+    width: 450px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 25px;
+}
+
+input
+{
+    height: 45px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.forma
+{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    max-width: 700px;
+    width: 100%;
+    background: linear-gradient(to right, #283c86, #45a247);
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.forma h1
+{
+     align-self: center;
+}
+
+.forma form
+{
+    align-self: center;
+    max-width: 650px;
+    width: 100%;
+}
+
+.forma label
+{
+    display: flex;
+    align-items: center;
+    margin-right: 500px;
+}
+
+.forma input
+{
+    max-width: 600px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.sex
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sex input
+{
+    width: 50px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.forma select, textarea
+{
+    height: 70px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 600px;
+    width: 100%;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+}
+
+.checkbox input
+{
+    margin-right: 30px;
+}
+
+.button
+{
+    cursor: pointer;
+}
+
+.button:hover
+{
+    border: 3px solid rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.55);
+}
